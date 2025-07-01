@@ -1,0 +1,55 @@
+{
+  "name": "custom-jotai",
+  "version": "2.0.2",
+  "description": "A custom implementation of Jotai",
+  "author": "h-u-i",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "test": "jest --passWithNoTests --config jest.config.ts",
+    "build": "pnpm run -w build:jotai",
+    "prepublishOnly": "pnpm run build",
+    "typecheck": "tsc"
+  },
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.mjs"
+      },
+      "require": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.cjs"
+      }
+    }
+  },
+  "keywords": [
+    "react",
+    "state",
+    "manager",
+    "management",
+    "jotai",
+    "atom"
+  ],
+  "files": [
+    "dist"
+  ],
+  "sideEffects": false,
+  "license": "MIT",
+  "engines": {
+    "node": ">=12.7.0"
+  },
+  "contributors": [],
+  "dependencies": {
+    "jotai": "^2.6.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "jotai": "^2.6.0"
+  },
+  "peerDependencies": {
+    "react": ">=17.0.0"
+  }
+} 

@@ -1,0 +1,56 @@
+{
+  "name": "custom-valtio",
+  "version": "2.0.2",
+  "description": "A custom implementation of Valtio",
+  "author": "h-u-i",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "test": "jest --passWithNoTests --config jest.config.ts",
+    "build": "pnpm run -w build:valtio",
+    "prepublishOnly": "pnpm run build",
+    "typecheck": "tsc"
+  },
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.mjs"
+      },
+      "require": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.cjs"
+      }
+    }
+  },
+  "keywords": [
+    "react",
+    "state",
+    "manager",
+    "management",
+    "valtio",
+    "proxy",
+    "proxy-state"
+  ],
+  "files": [
+    "dist"
+  ],
+  "sideEffects": false,
+  "license": "MIT",
+  "engines": {
+    "node": ">=12.7.0"
+  },
+  "contributors": [],
+  "dependencies": {
+    "valtio": "^1.12.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "valtio": "^1.12.0"
+  },
+  "peerDependencies": {
+    "react": ">=17.0.0"
+  }
+} 
