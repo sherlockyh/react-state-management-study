@@ -1,6 +1,4 @@
-node_modules/
-dist/
-build/
-coverage/
-*.min.js
-*.bundle.js 
+dist
+examples
+node_modules
+website
