@@ -1,4 +1,4 @@
-name: ci # workflow名称，用来在 GitHub Actions 界面中标识不同的 workflow
+name: test # workflow名称，用来在 GitHub Actions 界面中标识不同的 workflow
 
 on: # 定义了触发工作流的事件
   push:
