@@ -1,4 +1,3 @@
-
 const DRAFT_STATE = Symbol.for('DRAFT_STATE') // 定义了一个标识符，方便在代理对象中访问state的内部状态
 
 function latest(state) {
