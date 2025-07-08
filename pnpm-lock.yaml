@@ -34,10 +34,10 @@ importers:
         specifier: ^7.23.9
         version: 7.27.2(@babel/core@7.27.7)
       '@changesets/changelog-github':
-        specifier: ^0.5.0
+        specifier: ^0.5.1
         version: 0.5.1
       '@changesets/cli':
-        specifier: ^2.27.1
+        specifier: ^2.29.5
         version: 2.29.5
       '@jest/types':
         specifier: ^29.6.3

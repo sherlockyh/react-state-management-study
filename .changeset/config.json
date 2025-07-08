@@ -1,0 +1,9 @@
+{
+  "changelog": [
+    "@changesets/changelog-github",
+    { "repo": "sherlockyh/react-state-management-study" }
+  ],
+  "access": "public",
+  "baseBranch": "main",
+  "tag": true
+}
