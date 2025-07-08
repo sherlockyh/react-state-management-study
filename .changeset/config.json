@@ -6,10 +6,9 @@
   "access": "public",
   "baseBranch": "main",
   "tag": true,
-  "ignore":  [
-    "custom-jotai",
-    "custom-shared",
-    "custom-valtio",
-    "custom-react-query"
-  ]
+  "command": {
+    "publish": {
+      "filter": "./packages/zustand"
+    }
+  }
 }

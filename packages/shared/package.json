@@ -9,8 +9,7 @@
   "types": "./dist/index.d.ts",
   "scripts": {
     "test": "jest --passWithNoTests --config jest.config.ts",
-    "build": "pnpm run -w build:shared",
-    "prepublishOnly": "pnpm run build",
+    
     "typecheck": "tsc"
   },
   "exports": {
