@@ -1,6 +1,6 @@
 {
   "name": "custom-zustand-hui",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "A custom implementation of Zustand",
   "author": "h-u-i",
   "type": "module",
