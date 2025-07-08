@@ -1,5 +1,5 @@
 {
-  "name": "custom-zustand",
+  "name": "custom-zustand-hui",
   "version": "2.0.2",
   "description": "A custom implementation of Zustand",
   "author": "h-u-i",
@@ -42,9 +42,9 @@
   },
   "contributors": [],
   "bugs": {
-    "url": "https://github.com/q-u-n/state-management-collection/issues"
+    "url": "https://github.com/sherlockyh/react-state-management-study/issues"
   },
-  "homepage": "https://github.com/q-u-n/state-management-collection",
+  "homepage": "https://github.com/sherlockyh/react-state-management-study",
   "dependencies": {
     "use-sync-external-store": "^1.2.0"
   },
