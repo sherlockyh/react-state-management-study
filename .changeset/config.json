@@ -7,9 +7,9 @@
   "baseBranch": "main",
   "tag": true,
   "ignore":  [
-      "packages/jotai",
-      "packages/zustand",
-      "packages/valtio",
-      "packages/react-query"
-    ]
+    "custom-jotai",
+    "custom-shared",
+    "custom-valtio",
+    "custom-react-query"
+  ]
 }
