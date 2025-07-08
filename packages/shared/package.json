@@ -1,6 +1,7 @@
 {
   "name": "custom-shared",
   "version": "2.0.2",
+  "private": true,
   "description": "A custom shared utilities for state management",
   "author": "h-u-i",
   "type": "module",
