@@ -6,5 +6,10 @@
   "access": "public",
   "baseBranch": "main",
   "tag": true,
-  "packages": ["packages/zustand"]
+  "ignore":  [
+      "packages/jotai",
+      "packages/zustand",
+      "packages/valtio",
+      "packages/react-query"
+    ]
 }
